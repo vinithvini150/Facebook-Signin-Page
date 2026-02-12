@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f2f5;
+}
+.container{
+    display: flex;
+    height: 100vh;
+   justify-content: center;
+    align-items: center;
+}
+.signinpage {
+  background-color: white;
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.signinpage h1 {
+   font-size: 26px;  
+}
+.signinpage p {
+    font-size: 12px;
+    color:rgb(199, 188, 188) ; 
+}
+.divider {
+    padding: 0;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(199, 188, 188);
+}
+.details{
+    display: flex   ;
+    justify-content: space-between;
+    gap: 10px;
+}
+.details input {
+    height: 40px;
+    width: 215px;
+    text-align: center;
+    border: 1px #dddfe2 solid;
+    
+    border-radius: 6px;
+    
+}
+.signinpage input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px rgba(24,119,242,0.2);
+    outline: none;   /* ⭐ IMPORTANT */
+}
+
+.ph {
+    display: flex;  
+    padding-top: 10px; 
+}
+.ph input {
+    
+   height: 40px;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    border: 1px #dddfe2 solid;
+    border-radius: 6px;
+}
+.password {
+    display: flex;  
+    padding-top: 10px; 
+
+}
+.password input {
+     height: 40px;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    border: 1px #dddfe2 solid;
+    border-radius: 6px;
+
+}
+.dob {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.dob-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.dob-1 select {
+    height: 40px;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    border: 1px #dddfe2 solid;
+    border-radius: 6px;
+}
+.gender {
+    display: flex;
+       font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.gender-1 {
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+
+}
+.gender-1 label {
+     border: 1px solid #dddfe2;
+     width: 75%;
+   
+    cursor: pointer;
+}
+.terms p {
+    font-size: 13px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.terms p a {
+    text-decoration: none;
+}
+
+    
+    
+ button {
+ background-color: #42b72a;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 75px;
+}
